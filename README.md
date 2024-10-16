@@ -26,5 +26,9 @@ answer, including your reasoning, to this markdown file.
 
 
 Sources:
-Chat GPT - seeing how to implement test file, as it did help a bunch, specifically with comparing my result to the one that the test expects
+Chat GPT - seeing how to implement test file, as it did help specifically with comparing my result to the one that the test expects
+https://github.com/COSC3020/dijkstra-s-algorithm-AaronATM/blob/main/code.test.js - looked at test file here as well
 
+
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
