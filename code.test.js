@@ -42,5 +42,21 @@ if (JSON.stringify(result3) !== JSON.stringify(expected3)) { // compares result
   throw new Error(`test 3 failed`);
 }
 
-console.log("all tests passed");
 
+let graph4 = [];
+let expected4 = []; 
+
+let result4 = dijkstra(graph4, 0);
+if (JSON.stringify(result4) !== JSON.stringify(expected4)) { // compares result 
+  throw new Error(`test 4 failed`);
+}
+
+let graph5 = [[]]; 
+let expected5 = [0]; 
+
+let result5 = dijkstra(graph5, 0);
+if (JSON.stringify(result5) !== JSON.stringify(expected5)) { // compares result 
+  throw new Error(`test 5 failed`);
+}
+
+console.log("all tests passed");
