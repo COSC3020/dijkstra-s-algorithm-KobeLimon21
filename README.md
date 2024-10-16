@@ -26,5 +26,5 @@ answer, including your reasoning, to this markdown file.
 
 
 Sources:
-Chat GPT - seeing how to implement test file, as it did help a bunch, specifically with comparing my result to the one that the test generates 
+Chat GPT - seeing how to implement test file, as it did help a bunch, specifically with comparing my result to the one that the test expects
 
