@@ -23,3 +23,21 @@ inefficient.
 
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+
+The first for loop that initializes the nodes to infinity runs(except source node)for over all the nodes(vertices) so this is (v). The second for loop also iterates over all the nodes again to make sure they have all been visited which is (v). The third for loop which finds the unvisited node with the smallest distance, for each iteration in the second loop this runs v times so this is v*v or v^2. The fourth for loop runs for the amount of edges total, which is the total neighbors which is (e). This comes out to being V + V + V^2 + E = $\Theta$(V^2) as we ignore the other 2 V's being that they are smaller than V^2 and we can bound E to V^2 because in our worst case of a complete graph our max number of edges could be v^2 being that every node is connected. While in our more common cases we can expect this to be closer to V which wont matter asymtotically this will always be v^2 because e will never be more than v^2.
+
+
+Sources:
+
+Chat GPT - seeing how to implement test file, as it did help specifically with comparing my result to the one that the test expects.
+
+https://www.w3schools.com/jsref/jsref_fill.asp - explained .fill function 
+
+https://github.com/COSC3020/dijkstra-s-algorithm-AaronATM/blob/main/code.test.js - looked at test file here as well
+
+powerpoint slides on adjacency list 
+
+
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
