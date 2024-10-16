@@ -11,7 +11,7 @@ let graph1 = [
 let expected1 = [0, 3, 5, 3, 2];  
 
 let result1 = dijkstra(graph1, 0);
-if (JSON.stringify(result1) !== JSON.stringify(expected1)) {
+if (JSON.stringify(result1) !== JSON.stringify(expected1)) { // compares result 
   throw new Error(`test 1 failed`);
 }
 
@@ -25,7 +25,7 @@ let graph2 = [
 let expected2 = [0, 7, 9, 11, 17];  
 
 let result2 = dijkstra(graph2, 0);
-if (JSON.stringify(result2) !== JSON.stringify(expected2)) {
+if (JSON.stringify(result2) !== JSON.stringify(expected2)) { // compares result 
   throw new Error(`test 2 failed`);
 }
 
@@ -38,7 +38,7 @@ let graph3 = [
 let expected3 = [0, 2, 3, Infinity];  
 
 let result3 = dijkstra(graph3, 0);
-if (JSON.stringify(result3) !== JSON.stringify(expected3)) {
+if (JSON.stringify(result3) !== JSON.stringify(expected3)) { // compares result 
   throw new Error(`test 3 failed`);
 }
 
